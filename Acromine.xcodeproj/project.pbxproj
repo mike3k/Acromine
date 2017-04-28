@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27ECBB551EB3B3010029BCFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECBB541EB3B3010029BCFA /* main.m */; };
+		27ECBB581EB3B3010029BCFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECBB571EB3B3010029BCFA /* AppDelegate.m */; };
+		27ECBB5B1EB3B3010029BCFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECBB5A1EB3B3010029BCFA /* ViewController.m */; };
+		27ECBB5E1EB3B3020029BCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ECBB5C1EB3B3020029BCFA /* Main.storyboard */; };
+		27ECBB601EB3B3020029BCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ECBB5F1EB3B3020029BCFA /* Assets.xcassets */; };
+		27ECBB631EB3B3020029BCFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ECBB611EB3B3020029BCFA /* LaunchScreen.storyboard */; };
+		27ECBB6E1EB3B3020029BCFA /* AcromineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECBB6D1EB3B3020029BCFA /* AcromineTests.m */; };
+		27ECBB791EB3B3020029BCFA /* AcromineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECBB781EB3B3020029BCFA /* AcromineUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27ECBB6A1EB3B3020029BCFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27ECBB481EB3B3010029BCFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27ECBB4F1EB3B3010029BCFA;
+			remoteInfo = Acromine;
+		};
+		27ECBB751EB3B3020029BCFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27ECBB481EB3B3010029BCFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27ECBB4F1EB3B3010029BCFA;
+			remoteInfo = Acromine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27ECBB501EB3B3010029BCFA /* Acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ECBB541EB3B3010029BCFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27ECBB561EB3B3010029BCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27ECBB571EB3B3010029BCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27ECBB591EB3B3010029BCFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27ECBB5A1EB3B3010029BCFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27ECBB5D1EB3B3020029BCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27ECBB5F1EB3B3020029BCFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27ECBB621EB3B3020029BCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27ECBB641EB3B3020029BCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27ECBB691EB3B3020029BCFA /* AcromineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcromineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ECBB6D1EB3B3020029BCFA /* AcromineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcromineTests.m; sourceTree = "<group>"; };
+		27ECBB6F1EB3B3020029BCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27ECBB741EB3B3020029BCFA /* AcromineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcromineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ECBB781EB3B3020029BCFA /* AcromineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcromineUITests.m; sourceTree = "<group>"; };
+		27ECBB7A1EB3B3020029BCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27ECBB4D1EB3B3010029BCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB661EB3B3020029BCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB711EB3B3020029BCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27ECBB471EB3B3010029BCFA = {
+			isa = PBXGroup;
+			children = (
+				27ECBB521EB3B3010029BCFA /* Acromine */,
+				27ECBB6C1EB3B3020029BCFA /* AcromineTests */,
+				27ECBB771EB3B3020029BCFA /* AcromineUITests */,
+				27ECBB511EB3B3010029BCFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27ECBB511EB3B3010029BCFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27ECBB501EB3B3010029BCFA /* Acromine.app */,
+				27ECBB691EB3B3020029BCFA /* AcromineTests.xctest */,
+				27ECBB741EB3B3020029BCFA /* AcromineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27ECBB521EB3B3010029BCFA /* Acromine */ = {
+			isa = PBXGroup;
+			children = (
+				27ECBB561EB3B3010029BCFA /* AppDelegate.h */,
+				27ECBB571EB3B3010029BCFA /* AppDelegate.m */,
+				27ECBB591EB3B3010029BCFA /* ViewController.h */,
+				27ECBB5A1EB3B3010029BCFA /* ViewController.m */,
+				27ECBB5C1EB3B3020029BCFA /* Main.storyboard */,
+				27ECBB5F1EB3B3020029BCFA /* Assets.xcassets */,
+				27ECBB611EB3B3020029BCFA /* LaunchScreen.storyboard */,
+				27ECBB641EB3B3020029BCFA /* Info.plist */,
+				27ECBB531EB3B3010029BCFA /* Supporting Files */,
+			);
+			path = Acromine;
+			sourceTree = "<group>";
+		};
+		27ECBB531EB3B3010029BCFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27ECBB541EB3B3010029BCFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27ECBB6C1EB3B3020029BCFA /* AcromineTests */ = {
+			isa = PBXGroup;
+			children = (
+				27ECBB6D1EB3B3020029BCFA /* AcromineTests.m */,
+				27ECBB6F1EB3B3020029BCFA /* Info.plist */,
+			);
+			path = AcromineTests;
+			sourceTree = "<group>";
+		};
+		27ECBB771EB3B3020029BCFA /* AcromineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27ECBB781EB3B3020029BCFA /* AcromineUITests.m */,
+				27ECBB7A1EB3B3020029BCFA /* Info.plist */,
+			);
+			path = AcromineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27ECBB4F1EB3B3010029BCFA /* Acromine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ECBB7D1EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "Acromine" */;
+			buildPhases = (
+				27ECBB4C1EB3B3010029BCFA /* Sources */,
+				27ECBB4D1EB3B3010029BCFA /* Frameworks */,
+				27ECBB4E1EB3B3010029BCFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acromine;
+			productName = Acromine;
+			productReference = 27ECBB501EB3B3010029BCFA /* Acromine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27ECBB681EB3B3020029BCFA /* AcromineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ECBB801EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "AcromineTests" */;
+			buildPhases = (
+				27ECBB651EB3B3020029BCFA /* Sources */,
+				27ECBB661EB3B3020029BCFA /* Frameworks */,
+				27ECBB671EB3B3020029BCFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27ECBB6B1EB3B3020029BCFA /* PBXTargetDependency */,
+			);
+			name = AcromineTests;
+			productName = AcromineTests;
+			productReference = 27ECBB691EB3B3020029BCFA /* AcromineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27ECBB731EB3B3020029BCFA /* AcromineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ECBB831EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "AcromineUITests" */;
+			buildPhases = (
+				27ECBB701EB3B3020029BCFA /* Sources */,
+				27ECBB711EB3B3020029BCFA /* Frameworks */,
+				27ECBB721EB3B3020029BCFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27ECBB761EB3B3020029BCFA /* PBXTargetDependency */,
+			);
+			name = AcromineUITests;
+			productName = AcromineUITests;
+			productReference = 27ECBB741EB3B3020029BCFA /* AcromineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27ECBB481EB3B3010029BCFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mike Cohen";
+				TargetAttributes = {
+					27ECBB4F1EB3B3010029BCFA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MJQW94A385;
+						ProvisioningStyle = Automatic;
+					};
+					27ECBB681EB3B3020029BCFA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MJQW94A385;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27ECBB4F1EB3B3010029BCFA;
+					};
+					27ECBB731EB3B3020029BCFA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MJQW94A385;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27ECBB4F1EB3B3010029BCFA;
+					};
+				};
+			};
+			buildConfigurationList = 27ECBB4B1EB3B3010029BCFA /* Build configuration list for PBXProject "Acromine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27ECBB471EB3B3010029BCFA;
+			productRefGroup = 27ECBB511EB3B3010029BCFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27ECBB4F1EB3B3010029BCFA /* Acromine */,
+				27ECBB681EB3B3020029BCFA /* AcromineTests */,
+				27ECBB731EB3B3020029BCFA /* AcromineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27ECBB4E1EB3B3010029BCFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECBB631EB3B3020029BCFA /* LaunchScreen.storyboard in Resources */,
+				27ECBB601EB3B3020029BCFA /* Assets.xcassets in Resources */,
+				27ECBB5E1EB3B3020029BCFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB671EB3B3020029BCFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB721EB3B3020029BCFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27ECBB4C1EB3B3010029BCFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECBB5B1EB3B3010029BCFA /* ViewController.m in Sources */,
+				27ECBB581EB3B3010029BCFA /* AppDelegate.m in Sources */,
+				27ECBB551EB3B3010029BCFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB651EB3B3020029BCFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECBB6E1EB3B3020029BCFA /* AcromineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECBB701EB3B3020029BCFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECBB791EB3B3020029BCFA /* AcromineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27ECBB6B1EB3B3020029BCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27ECBB4F1EB3B3010029BCFA /* Acromine */;
+			targetProxy = 27ECBB6A1EB3B3020029BCFA /* PBXContainerItemProxy */;
+		};
+		27ECBB761EB3B3020029BCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27ECBB4F1EB3B3010029BCFA /* Acromine */;
+			targetProxy = 27ECBB751EB3B3020029BCFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27ECBB5C1EB3B3020029BCFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ECBB5D1EB3B3020029BCFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27ECBB611EB3B3020029BCFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ECBB621EB3B3020029BCFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27ECBB7B1EB3B3020029BCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27ECBB7C1EB3B3020029BCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27ECBB7E1EB3B3020029BCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27ECBB7F1EB3B3020029BCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27ECBB811EB3B3020029BCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = AcromineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.AcromineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine.app/Acromine";
+			};
+			name = Debug;
+		};
+		27ECBB821EB3B3020029BCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = AcromineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.AcromineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine.app/Acromine";
+			};
+			name = Release;
+		};
+		27ECBB841EB3B3020029BCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = AcromineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.AcromineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Acromine;
+			};
+			name = Debug;
+		};
+		27ECBB851EB3B3020029BCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MJQW94A385;
+				INFOPLIST_FILE = AcromineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdevzone.AcromineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Acromine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27ECBB4B1EB3B3010029BCFA /* Build configuration list for PBXProject "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECBB7B1EB3B3020029BCFA /* Debug */,
+				27ECBB7C1EB3B3020029BCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27ECBB7D1EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECBB7E1EB3B3020029BCFA /* Debug */,
+				27ECBB7F1EB3B3020029BCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27ECBB801EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "AcromineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECBB811EB3B3020029BCFA /* Debug */,
+				27ECBB821EB3B3020029BCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27ECBB831EB3B3020029BCFA /* Build configuration list for PBXNativeTarget "AcromineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECBB841EB3B3020029BCFA /* Debug */,
+				27ECBB851EB3B3020029BCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27ECBB481EB3B3010029BCFA /* Project object */;
+}
