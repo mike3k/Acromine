@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextField *abbreviation;
+
+@property (nonatomic, strong) IBOutlet UIButton *lookupButton;
+
+- (IBAction)lookup:(id)sender;
+
+- (IBAction)unwind:(UIStoryboardSegue*)sender;
+
 
 @end
 
